@@ -25,6 +25,7 @@ I did notice there was a pip complain saying that setuptools/69.5.1 is not compa
 when installing chumpy (for mmpose), there is pip not recognized error. using the following to reinstall pip could help
 
 wget https://bootstrap.pypa.io/get-pip.py
+
 python get-pip.py
 
 
