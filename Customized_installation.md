@@ -46,6 +46,8 @@ This link might also help (https://github.com/salesforce/LAVIS/issues/15)
 
 packaging need to be 23.0
 
+It is better to build mmcv from scratch
+
 
 
 
