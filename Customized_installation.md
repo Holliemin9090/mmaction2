@@ -22,6 +22,10 @@ The 2.1.0 release of mmcv can be downloaded from (https://github.com/open-mmlab/
 
 I did notice there was a pip complain saying that setuptools/69.5.1 is not compatible with openxlab/0.0.38 (which needs 60. something), but so far it has not been causing issues
 
+when installing chumpy (for mmpose), there is pip not recognized error. using the following to reinstall pip could help
+
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
 
 
 
