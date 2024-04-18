@@ -28,5 +28,22 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 python get-pip.py
 
+## installation on MAC M1
+
+The biggest issue is decord is not supported by pip install on m1 chip for python 3.9 and above, so it needs to be build from the source:
+
+(https://github.com/dmlc/decord#mac-os), but when installing python binding, it needs to be installed from the wheel, otherwise it will result in 2 decord 0.6.0 and python will complain about the egg file in the site-packages
+
+Install python bindings:
+
+cd ../python
+
+python setup.py bdist_wheel
+
+pip install dist/*.whl
+
+
+
+
 
 
